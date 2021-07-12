@@ -1,0 +1,133 @@
+@for $i from 1 through 17 {
+    .mb-#{$i} {
+        margin-bottom: #{$i*4}px;
+    }
+}
+.pt-7{
+    padding-top: 28px;
+}
+.pt-14{
+    padding-top: 56px;
+}
+.pt-16{
+    padding-top: 64px;
+}
+.pb-6{
+    padding-bottom: 24px;
+}
+.pb-7{
+    padding-bottom: 28px;
+}
+.pb-8{
+    padding-bottom: 32px;
+}
+.pb-24{
+    padding-bottom: 96px;
+}
+.pb-30{
+    padding-bottom: 120px;
+}
+body{
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.sub-title{
+    font-size: 64px;
+}
+.d-theme{
+    background: #000;
+    color: #fff;
+}
+.text-white{
+    color: #fff;
+}
+.fz-s{
+    font-size: 20px;
+}
+.content{
+    width: 1200px;
+}
+.header{
+    align-items: center;
+    height: 958px;
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
+    background-position: center;
+    text-align: left;
+    font-weight: bold;
+    span{
+        line-height: 42px;
+    }
+    h1{
+        font-size: 80px;
+        line-height: 106px;
+    }
+    .link-list{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.about .photo{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.about-profile-list, .about-position-list{
+    font-weight: bold;
+}
+.about-position-list{
+    border-top: 1px solid #000;
+    li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 28px;
+        &::before{
+            content: "";
+            display: block;
+            width: 22px;
+            height: 22px;
+            border-radius: 100%;
+            background: #891818;
+            margin-right: 16px;
+        }
+    }
+}
+.brand-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li{
+        margin-bottom: 40px;
+    }
+    li:first-child{
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}
+.work-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li img{
+        margin-bottom: 16px;
+    }
+    li p{
+        font-size: 20px;
+        margin-bottom: 48px;
+    }
+}
+.contact-list li{
+    margin-bottom: 16px;
+    a{
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+            color: blue;
+        }
+    }
+}
