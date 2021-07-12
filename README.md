@@ -1,8 +1,11 @@
 # HexSchool Week2-個人網頁
 
 設計稿：https://xd.adobe.com/view/3d28af46-ac66-480d-a9a5-4b07454e6f79-687b/specs/
+
 Github：https://github.com/hsiung0322/HexSchool-week2-profile4
+
 Pages：https://hsiung0322.github.io/HexSchool-week2-profile4/
+
 Youtube：https://www.youtube.com/watch?v=Knp59XTIckw
 
 ## margin-bottom (以4px為一單位)
