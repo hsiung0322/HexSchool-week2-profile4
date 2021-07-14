@@ -178,16 +178,19 @@ body {
   line-height: 1.5;
 }
 
-section {
+.flex-center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.sub-title {
+.title {
   font-size: 64px;
 }
 
@@ -204,23 +207,26 @@ section {
   font-size: 20px;
 }
 
-.content {
+.fw-b {
+  font-weight: bold;
+}
+
+.container {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .header {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 958px;
   background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
   background-position: center;
   text-align: left;
-  font-weight: bold;
 }
 
 .header span {
+  display: block;
   line-height: 42px;
+  font-size: 24px;
 }
 
 .header h1 {
@@ -237,16 +243,25 @@ section {
           justify-content: space-between;
 }
 
+.header .link-list a {
+  display: block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header .link-list a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .about .photo {
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
-.about-profile-list, .about-position-list {
-  font-weight: bold;
-}
-
 .about-position-list {
+  width: 384px;
+  margin: 0 auto;
   border-top: 1px solid #000;
 }
 
@@ -308,7 +323,7 @@ section {
   margin-bottom: 16px;
 }
 
-.work-list li p {
+.work-list li h3 {
   font-size: 20px;
   margin-bottom: 48px;
 }
