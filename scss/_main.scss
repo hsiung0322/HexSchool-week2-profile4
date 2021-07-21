@@ -63,6 +63,9 @@ body{
     background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
     background-position: center;
     text-align: left;
+    .container{
+        height: 100%;
+    }
     span{
         display: block;
         line-height: 42px;
